@@ -1,0 +1,128 @@
+@import "header.css";
+@import "hero.css";
+@import "footer.css";
+
+:root {
+    --bg1: #1F2937;
+    --bg2: #E5E7EB;
+    --bg-button: #3882F6;
+    --txt-white1: #F9FAF8;
+    --txt2-black: #1F2937;
+    --txt-white2: #E5E7EB; 
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+button {
+    background-color: var(--bg-button);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--txt-white1);
+    width: fit-content;
+    padding: 1rem 5rem;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* ------------- Information Section ------------- */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.information .information-header-text {
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: var(--txt-black);
+}
+
+.information .information-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.information .information-images .information-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.information .information-images .information-image img {
+    width: 200px;
+    height: 150px;
+}
+
+.information .information-images .information-image p {
+    font-size: 1.4rem;
+    color: var(--txt-black);
+    text-align: center;
+    width: 200px;
+}
+
+/* ------------- End of Information Section ------------- */
+
+/* ------------- Quote ------------- */
+
+.quote {
+    background-color: var(--bg2);
+    padding: 50px 300px;
+}
+
+.quote .quote-text {
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--txt-black);
+    width: fit-content;
+}
+
+.quote .quote-author {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: end;
+}
+
+/* ------------- End of Quote Section ------------- */
+
+
+
+/* ------------- Call To Action Section ------------- */
+
+.sign-up {
+    padding: 80px 200px;
+}
+
+.call-to-action {
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action h1 {
+    color: var(--txt-white1);
+}
+
+.call-to-action p {
+    color: var(--txt-white2);
+    font-size: 1.6rem;
+}
+
+.call-to-action button {
+    border: 2px solid var(--txt-white1);
+}
+
+
+/* ------------- End of Call To Action Section ------------- */
